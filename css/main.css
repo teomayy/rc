@@ -1,0 +1,222 @@
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/raleway/v18/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaooCP.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/raleway/v18/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvoooCP.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/raleway/v18/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVs9pYCP.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/cormorantgaramond/v9/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQWlhvuQ.ttf) format('truetype');
+}
+body {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+p,
+a {
+  margin: 10px 0;
+  line-height: 1.45em;
+  font-weight: 500;
+}
+#rcl-page-header {
+  text-transform: uppercase;
+  font-size: 11px;
+  line-height: 2.09em;
+  font-weight: 500;
+  letter-spacing: 0.5em;
+  height: 950px;
+  background-image: url(/img/586.jpg);
+  background-size: 1920px;
+  background-repeat: no-repeat;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.nav-header {
+  height: 150px;
+}
+.widgeht-holder {
+  margin-left: 5%;
+}
+.btn-header {
+  width: 14rem;
+}
+.panda-logo {
+  width: 50px;
+}
+.nav-left {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: block;
+  padding: 2% 5%;
+  margin-right: 1rem;
+  margin-left: 13rem;
+}
+.nav-right {
+  padding: 2% 8%;
+}
+#first-floor {
+  padding: 7% 0;
+  text-align: center;
+}
+.info-holder {
+  padding: 0 0 60px;
+}
+.name-holder h1 {
+  font-family: 'Cormorant Garamond', serif;
+  text-transform: uppercase;
+  color: #000;
+  font-size: 3.5rem;
+  font-weight: 400;
+  line-height: 1.09em;
+  letter-spacing: 0.15em;
+}
+.description-sold {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 1px 35px 1px 40px;
+  font-size: 11px;
+  letter-spacing: 0.5rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  background-color: #b48a16;
+  color: #fff;
+}
+.card-text {
+  font-size: 13px;
+  letter-spacing: .6em;
+  font-family: 'Raleway';
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #d7926b;
+}
+.desription-holder {
+  font-size: 13px;
+  letter-spacing: .6em;
+  font-family: 'Raleway';
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #d7926b;
+}
+.apartment-item {
+  width: 100%;
+  margin: 0 0 60px;
+  vertical-align: top;
+  min-height: 1px;
+}
+.media-image {
+  width: 360px;
+}
+.apartment-item h5 {
+  margin: 26px 0;
+  font-family: 'Cormorant Garamond', serif;
+  text-transform: uppercase;
+  color: #000;
+  font-size: 22px;
+  line-height: 1.45em;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+}
+.qodef-h5 a,
+h5 a {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+  line-height: inherit;
+  letter-spacing: inherit;
+  text-transform: inherit;
+  color: inherit;
+}
+.qodef-h5 a:hover,
+h5 a:hover {
+  color: #d7926b;
+}
+.feature-icon {
+  width: 55px;
+  height: 55px;
+}
+.phi-features-holder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 12%;
+}
+.phi-feature {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 10px;
+}
+.feature-title {
+  font-family: 'Cormorant Garamond', serif;
+  padding-top: 4px;
+  font-weight: 500;
+}
+#second-floor {
+  padding: 7% 0;
+  text-align: center;
+  background-image: url(/img/light-gray.jpg);
+}
+#third-floor {
+  padding: 7% 0;
+  text-align: center;
+}
+#page-footer-top-area {
+  padding: 200px 0 54px;
+  background-color: #19130b;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: 0 solid rgba(12, 7, 5, 0.1);
+}
+.fotter-inner {
+  font-family: 'Cormorant Garamond', serif;
+}
+.footer-widgets {
+  width: 25%;
+  text-align: left;
+}
+#page-footer-top-area .widget-text {
+  color: #ccc;
+}
+.widget-title {
+  text-transform: uppercase;
+  color: #fff;
+}
+.textwidget {
+  margin: 10px 0;
+  line-height: 1.45em;
+  font-weight: 500;
+  display: block;
+  color: #fff;
+  padding-bottom: 9px;
+}
+a {
+  color: #b2b2b2;
+}
